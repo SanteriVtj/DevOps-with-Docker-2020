@@ -1,0 +1,134 @@
+Last login: Tue Jul 21 09:53:37 on ttys001
+(base) santerivaataja@Santeris-MacBook-Pro ~ % docker images  
+REPOSITORY                          TAG                 IMAGE ID            CREATED             SIZE
+ubuntu                              16.04               c522ac0d6194        2 weeks ago         126MB
+ubuntu                              xenial              c522ac0d6194        2 weeks ago         126MB
+ubuntu                              latest              adafef2e596e        2 weeks ago         73.9MB
+devopsdockeruh/exec_bash_exercise   latest              c52ece77379e        6 weeks ago         942MB
+devops                              latest              c52ece77379e        6 weeks ago         942MB
+(base) santerivaataja@Santeris-MacBook-Pro ~ % docker run -d --rm -it --name secret devops 
+95983aa500563d46150d6314f7bdfe2b94a0c8f7c9e399131072f7a6fb32eae4
+(base) santerivaataja@Santeris-MacBook-Pro ~ % docker exec -it secret bash
+root@95983aa50056:/usr/app# tail -f ./logs.txt
+Secret message is:
+"Docker is easy"
+Tue, 21 Jul 2020 07:32:38 GMT
+Tue, 21 Jul 2020 07:32:41 GMT
+Tue, 21 Jul 2020 07:32:44 GMT
+Tue, 21 Jul 2020 07:32:47 GMT
+Secret message is:
+"Docker is easy"
+Tue, 21 Jul 2020 07:32:53 GMT
+Tue, 21 Jul 2020 07:32:56 GMT
+Tue, 21 Jul 2020 07:32:59 GMT
+Tue, 21 Jul 2020 07:33:02 GMT
+Secret message is:
+"Docker is easy"
+^C
+root@95983aa50056:/usr/app# 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,25 @@
+Last login: Tue Jul 21 13:19:21 on ttys001
+(base) santerivaataja@Santeris-MacBook-Pro ~ % docker images
+REPOSITORY                          TAG                 IMAGE ID            CREATED             SIZE
+ubuntu                              16.04               c522ac0d6194        2 weeks ago         126MB
+ubuntu                              xenial              c522ac0d6194        2 weeks ago         126MB
+ubuntu                              latest              adafef2e596e        2 weeks ago         73.9MB
+devopsdockeruh/exec_bash_exercise   latest              c52ece77379e        6 weeks ago         942MB
+devops                              latest              c52ece77379e        6 weeks ago         942MB
+(base) santerivaataja@Santeris-MacBook-Pro ~ % docker run --rm -it --name ub ubuntu:16.04 sh -c 'apt update && apt install -y curl && echo "Input website:"; read website; echo "Searching.."; sleep 1; curl http://$website;'
+
+	############################################################
+	####	apt update and curl installation done here.	####
+	############################################################
+
+Input website:
+helsinki.fi
+Searching..
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>301 Moved Permanently</title>
+</head><body>
+<h1>Moved Permanently</h1>
+<p>The document has moved <a href="http://www.helsinki.fi/">here</a>.</p>
+</body></html>
+(base) santerivaataja@Santeris-MacBook-Pro ~ % 
