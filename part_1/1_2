@@ -1,0 +1,134 @@
+Last login: Tue Jul 21 08:41:21 on ttys001
+(base) santerivaataja@Santeris-MacBook-Pro ~ % docker run -d nginx
+29b963093fe23ecc27b98289e27b9217a8324fa9d7876084bc16d38e98c8ba51
+(base) santerivaataja@Santeris-MacBook-Pro ~ % docker run -d nginx
+b8fa630f17433df0d4ee25830a0c5d2c4619db89e4c7cb1e40606816c0d53ce4
+(base) santerivaataja@Santeris-MacBook-Pro ~ % docker run -d nginx
+6492c7159f0ccd33852662174c4aec7e4e52be9fd21ac37ae24eb55ab9c38f1f
+(base) santerivaataja@Santeris-MacBook-Pro ~ % docker ps -a
+CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS              PORTS               NAMES
+6492c7159f0c        nginx               "/docker-entrypoint.…"   6 seconds ago       Up 5 seconds        80/tcp              practical_austin
+b8fa630f1743        nginx               "/docker-entrypoint.…"   7 seconds ago       Up 7 seconds        80/tcp              elated_swanson
+29b963093fe2        nginx               "/docker-entrypoint.…"   9 seconds ago       Up 8 seconds        80/tcp              infallible_mirzakhani
+(base) santerivaataja@Santeris-MacBook-Pro ~ % docker stop 6 b
+6
+b
+(base) santerivaataja@Santeris-MacBook-Pro ~ % docker ps -a
+CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS                     PORTS               NAMES
+6492c7159f0c        nginx               "/docker-entrypoint.…"   21 seconds ago      Exited (0) 4 seconds ago                       practical_austin
+b8fa630f1743        nginx               "/docker-entrypoint.…"   22 seconds ago      Exited (0) 4 seconds ago                       elated_swanson
+29b963093fe2        nginx               "/docker-entrypoint.…"   24 seconds ago      Up 23 seconds              80/tcp              infallible_mirzakhani
+(base) santerivaataja@Santeris-MacBook-Pro ~ % docker stop 2
+2
+(base) santerivaataja@Santeris-MacBook-Pro ~ % docker rm 6 b 2 
+6
+b
+2
+(base) santerivaataja@Santeris-MacBook-Pro ~ % docker rmi nginx
+Untagged: nginx:latest
+Untagged: nginx@sha256:a93c8a0b0974c967aebe868a186e5c205f4d3bcb5423a56559f2f9599074bbcd
+Deleted: sha256:0901fa9da894a8e9de5cb26d6749eaffb67b373dc1ff8a26c46b23b1175c913a
+Deleted: sha256:89a4b5ca03d8301855dee414fc0631cff6410a48ff3a54f5f271906b81cd4e2b
+Deleted: sha256:2e03e0e054440102d46743deb10a98bd4a2da37282a5c955c65e30a7bca53fc7
+Deleted: sha256:f7b1f49be3e1a298b598c7822a2a9334e0b806da2da34a740a4d64b7c5f877ce
+Deleted: sha256:2cdd3840848b3193bc22db56d42a6debdee858468fe3b506656d7d3c836a23c7
+Deleted: sha256:13cb14c2acd34e45446a50af25cb05095a17624678dbafbcc9e26086547c1d74
+(base) santerivaataja@Santeris-MacBook-Pro ~ % docker ps -a
+CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS              PORTS               NAMES
+(base) santerivaataja@Santeris-MacBook-Pro ~ % docker images
+REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
+(base) santerivaataja@Santeris-MacBook-Pro ~ % 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

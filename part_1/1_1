@@ -1,0 +1,134 @@
+Last login: Tue Jul 21 08:41:21 on ttys001
+(base) santerivaataja@Santeris-MacBook-Pro ~ % docker run -d nginx
+29b963093fe23ecc27b98289e27b9217a8324fa9d7876084bc16d38e98c8ba51
+(base) santerivaataja@Santeris-MacBook-Pro ~ % docker run -d nginx
+b8fa630f17433df0d4ee25830a0c5d2c4619db89e4c7cb1e40606816c0d53ce4
+(base) santerivaataja@Santeris-MacBook-Pro ~ % docker run -d nginx
+6492c7159f0ccd33852662174c4aec7e4e52be9fd21ac37ae24eb55ab9c38f1f
+(base) santerivaataja@Santeris-MacBook-Pro ~ % docker ps -a
+CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS              PORTS               NAMES
+6492c7159f0c        nginx               "/docker-entrypoint.…"   6 seconds ago       Up 5 seconds        80/tcp              practical_austin
+b8fa630f1743        nginx               "/docker-entrypoint.…"   7 seconds ago       Up 7 seconds        80/tcp              elated_swanson
+29b963093fe2        nginx               "/docker-entrypoint.…"   9 seconds ago       Up 8 seconds        80/tcp              infallible_mirzakhani
+(base) santerivaataja@Santeris-MacBook-Pro ~ % docker stop 6 b
+6
+b
+(base) santerivaataja@Santeris-MacBook-Pro ~ % docker ps -a
+CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS                     PORTS               NAMES
+6492c7159f0c        nginx               "/docker-entrypoint.…"   21 seconds ago      Exited (0) 4 seconds ago                       practical_austin
+b8fa630f1743        nginx               "/docker-entrypoint.…"   22 seconds ago      Exited (0) 4 seconds ago                       elated_swanson
+29b963093fe2        nginx               "/docker-entrypoint.…"   24 seconds ago      Up 23 seconds              80/tcp              infallible_mirzakhani
+(base) santerivaataja@Santeris-MacBook-Pro ~ % 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
