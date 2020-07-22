@@ -1,0 +1,134 @@
+Last login: Wed Jul 22 07:59:04 on ttys002
+(base) santerivaataja@Santeris-MacBook-Pro ~ % docker images
+REPOSITORY                              TAG                 IMAGE ID            CREATED             SIZE
+py                                      latest              a305933d02f1        About an hour ago   934MB
+youtube-dl                              latest              e38c96383ab6        2 hours ago         200MB
+python                                  3.8                 dc4fc1b34484        11 hours ago        934MB
+ubuntu                                  16.04               c522ac0d6194        2 weeks ago         126MB
+ubuntu                                  latest              adafef2e596e        2 weeks ago         73.9MB
+devopsdockeruh/exec_bash_exercise       latest              c52ece77379e        6 weeks ago         942MB
+devops                                  latest              c52ece77379e        6 weeks ago         942MB
+devopsdockeruh/first_volume_exercise    latest              7ec953697e38        6 weeks ago         942MB
+devopsdockeruh/ports_exercise           latest              40f5014f7503        6 weeks ago         119MB
+devopsdockeruh/overwrite_cmd_exercise   latest              3d2b622b1849        9 months ago        908MB
+(base) santerivaataja@Santeris-MacBook-Pro ~ % docker run -d -p 80 devopsdockeruh/ports_exercise 
+da2ae28b7bf643d4e29732f0c91727707c8fd27e2e9e23c0d47c1fb56323cd05
+(base) santerivaataja@Santeris-MacBook-Pro ~ % docker port da
+80/tcp -> 0.0.0.0:32770
+(base) santerivaataja@Santeris-MacBook-Pro ~ % 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
